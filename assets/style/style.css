@@ -12,12 +12,13 @@ body {
   min-width: 30px;
   cursor: pointer;  
   padding-bottom: 3px;
-  border-bottom: solid;
+  border-bottom-style: solid;
   border-bottom-width: 2px;
   width: fit-content;
 }
 .current-location :hover{
-    border-bottom-color: #F66E15 !important;
+    border-bottom-color: #F66E15;
+    color:#F66E15
     
 }
 .current-address{
