@@ -1,0 +1,238 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    
+
+}
+
+.header .left .left-second{
+    display: flex;
+    gap: 10px;
+}
+
+.header .right{
+    display: flex;
+    gap: 70px;
+    margin-right: 70px;
+
+}
+
+.header .left .logo{
+    /*border: 1px solid red;*/
+    position: relative;
+    bottom: 16px;
+    width: 30px;
+    height: 30px;
+    
+    
+    
+
+
+}
+
+.header .left .left-second .address1{
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-weight: bold;
+
+
+}
+
+.header .left .left-second .address2{
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    font-weight: 0;
+
+}
+
+.header .left .expand{
+    display: flex;
+    /*border: 1px solid red;*/
+    width: 15px;
+    height: 15px;
+
+
+}
+
+.right-items{
+    display: flex;
+    gap: 10px;
+}
+
+.right-items:hover{
+    color: #fc8019;
+    fill: #fc8019;
+    
+}
+/*.right-items svg:hover{
+    fill: #fc8019;
+}*/
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: #171a29;
+        
+}
+
+
+.cards{
+    display: flex;
+    padding : 45px 20px;
+    
+    
+}
+
+
+
+.cards img{
+    height: 260px;
+    width: 260px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    
+}
+
+.cards img:hover{
+
+    transform: scale(1.1);
+}
+    
+.third{
+    display: flex;
+    margin: 10px 100px;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    
+    
+}
+
+
+
+.third .third-right{
+    display: flex;
+    gap: 70px;
+    cursor: pointer;
+}
+
+.bottom{
+    
+    padding: 12px;
+    
+
+}
+
+
+
+.bottom .bottom-card{
+    height: 362px;
+    width: 264px;
+    margin: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+
+}
+.bottom .bottom-card:hover{
+    /*border: solid 1px grey;*/
+    outline: solid 1px grey;;
+}
+
+
+.bottom .bottom-card .image img{
+    width: 254px;
+    height: 160px;
+    margin: 5px;
+}
+
+
+.bottom .bottom-card .detail-1{
+    margin: 5px;
+    
+
+}
+
+.bottom .bottom-card .detail-2{
+    width: 254px;
+    margin: 5px;
+
+
+}
+
+
+
+.bottom .bottom-card .detail-3{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+    
+
+}
+.bottom .bottom-card .detail-4{
+    display: flex;
+    margin: 5px;
+
+}
+
+.material-symbols-outlined{
+    position: relative;
+    top: 11px;
+}
+
+.bottom .bottom-card .deliverytime{
+    position: absolute;
+    left: 130px;
+    top: 669px;
+    outline: 1px solid grey;
+    height: 17px;
+    width: 55px;
+    background-color: #48c479;
+    border-radius: 3px;
+
+
+}
+
+.bottom .bottom-card .off{
+    position: absolute;
+    left: 319px;
+    top: 538px;
+    outline: 1px solid grey;
+    height: 17px;
+    width: 55px;
+    background-color: #48c479;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    
